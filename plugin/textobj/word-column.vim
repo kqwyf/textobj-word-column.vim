@@ -7,15 +7,15 @@ set cpo&vim
 
 call textobj#user#plugin('wordcolumn', {
             \ 'word' : {
-            \   'select-i' : 'ic',
+            \   'select-i' : 'iq',
             \   'select-i-function' : 'textobj#word_column#select_iw',
-            \   'select-a' : 'ac',
+            \   'select-a' : 'aq',
             \   'select-a-function' : 'textobj#word_column#select_aw',
             \   },
             \ 'WORD' : {
-            \   'select-i' : 'iC',
+            \   'select-i' : 'iQ',
             \   'select-i-function' : 'textobj#word_column#select_iW',
-            \   'select-a' : 'aC',
+            \   'select-a' : 'aQ',
             \   'select-a-function' : 'textobj#word_column#select_aW',
             \   },
             \ })
